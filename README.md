@@ -115,36 +115,6 @@ portfolio/
 7. **Published Work** - Articles and blogs
 8. **Contact** - Email and LinkedIn
 
-## 🛠️ Setup Instructions
-
-1. **Download all files** (index.html, styles.css, script.js, README.md)
-
-2. **Create the folder structure** as shown above
-
-3. **Add your images**:
-   - Replace placeholder image paths with your actual images
-   - Ensure all images are optimized for web (compressed)
-   - Maintain recommended dimensions for best results
-
-4. **Customize content**:
-   - Open `index.html` and update:
-     - Company names in experience section
-     - Campaign titles
-     - Any additional information
-   
-5. **Update links**:
-   - Replace LinkedIn URL with your actual profile
-   - Add any additional social media links if needed
-
-6. **Test locally**:
-   - Open `index.html` in a web browser
-   - Test all navigation and interactive elements
-   - Verify images load correctly
-
-7. **Deploy**:
-   - Upload all files and folders to your web hosting
-   - Or use platforms like GitHub Pages, Netlify, or Vercel
-
 ## 📝 Customization Guide
 
 ### Updating Colors
