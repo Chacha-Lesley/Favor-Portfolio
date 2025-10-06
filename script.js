@@ -366,4 +366,27 @@ if ('IntersectionObserver' in window) {
     document.querySelectorAll('img[data-src]').forEach(img => {
         imageObserver.observe(img);
     });
+
+    // Skill bar animation
+const skillBars = document.querySelectorAll('.skill-progress-fill');
+const skillsSection = document.getElementById('skills');
+
+const skillsObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const bars = entry.target.querySelectorAll('.skill-progress-fill');
+            bars.forEach(bar => {
+                const progress = bar.getAttribute('data-progress');
+                setTimeout(() => {
+                    bar.style.width = progress + '%';
+                }, 100);
+            });
+            skillsObserver.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.3 });
+
+if (skillsSection) {
+    skillsObserver.observe(skillsSection);
+}
 }

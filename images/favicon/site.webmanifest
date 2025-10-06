@@ -1,0 +1,14 @@
+{
+    "name": "Favor Khaoya Portfolio",
+    "short_name": "FK Portfolio",
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#2ad882",
+    "background_color": "#1f242b",
+    "display": "standalone"
+}
