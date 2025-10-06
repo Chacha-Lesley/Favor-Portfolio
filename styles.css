@@ -121,9 +121,10 @@ nav.scrolled {
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, var(--black) 0%, var(--dark-bg) 100%);
+    color: var(--white);
     text-align: center;
     position: relative;
-    padding: 2rem;
+    padding: 6rem 2rem 2rem 2rem;
 }
 
 .hero::before {
@@ -248,6 +249,12 @@ section {
     opacity: 0;
     transform: translateY(20px);
     transition: all 0.6s ease;
+}
+
+/* Make hero visible immediately */
+.hero {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
 }
 
 section.visible {
